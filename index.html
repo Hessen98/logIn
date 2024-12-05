@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART LOGIN</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+<!-- start sign in -->
+
+
+    <div id="container-sign-in" class="d-none">
+
+
+        <div class="container">
+            <div class="card-login mt-5 mx-auto  w-75 text-center p-4">
+                <h1 class="text-capitalize ">smart login system</h1>
+                <!-- start form -->
+                <form>
+                    <div class="form-group w-75 mx-auto">
+                        <input type="text" class="form-control my-4 sign-in-email" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Enter Your email">
+                    </div>
+                    <div class="form-group w-75 mx-auto">
+                        <input type="password" class="form-control mb-4 sign-in-password" id="exampleInputPassword1"
+                        placeholder="Enter Your Password">
+                    </div>
+                    <!-- <button class="btn btn-outline-info w-75 mx-auto my-3">Login</button> -->
+                    <a href="home.html" id="btnSignIn"
+                    class="text-decoration-none text-white btn btn-outline-info w-75 mx-auto my-3">Login</a>
+                    <div class="alert-sign-in text-center text-danger text-success p-2"></div>
+                </form>
+                <!-- start form -->
+                <p>Don't have an account? <a class="text-white" id="to-sign-up" href="#">Sign Up</a></p>
+            </div>
+        </div>
+        
+        
+    </div>
+
+
+<!-- smart login -->
+
+<div id="container-smart-login" class="d-none">
+
+
+    <div class="container" >
+        <nav class="navbar navbar-expand-lg navbar-light text-white">
+            <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" id="logOut">LOG OUT</a>
+                    </li>
+                </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="card-login mt-5 mx-auto  w-50 text-center p-4 d-flex justify-content-center align-items-center">
+            <h1 class="text-capitalize w-75">Welcome <span id="user-name"></span></h1>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<!-- start sign up -->
+
+
+<div id="container-sign-Up" class="d-block">
+
+    
+    
+    
+    <div class="container">
+        <div class="card-login mt-5 mx-auto  w-50 text-center p-4">
+        <h1 class="text-capitalize ">smart login system</h1>
+        <!-- start form -->
+        <form>
+            <div class="form-group w-75 mx-auto">
+                <input type="text" class="form-control my-4 sign-up-name" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="Enter Your name">
+            </div>
+            <div class="form-group w-75 mx-auto">
+                <input type="text" class="form-control my-4 sign-up-email" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="Enter Your email">
+            </div>
+            <div class="form-group w-75 mx-auto">
+                <input type="password" class="form-control mb-4 sign-up-pass" id="exampleInputPassword1"
+                placeholder="Enter Your Password">
+            </div>
+            <div class="alert-sign-up text-center text-danger text-success p-2"></div>
+            <button id="btnSignUp" class="btn btn-outline-info w-75 mx-auto my-3">Login</button>
+        </form>
+        
+        <!-- end form -->
+        <p>you have an account? <a id="to-log-in" class="text-white " href="#">Sign IN</a></p>
+    </div>
+</div>
+
+
+</div>
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
